@@ -1,0 +1,13 @@
+[webdav]
+server = localhost
+port = 8080
+auth_mode = digest
+username = webdav
+password = USE_KEY_CHAIN
+epoch_delta = 3600
+
+[repository]
+name = Helmet
+local_path = ../../Projects/BFT_Abnahme
+remote_path = /BFT_Abnahme
+working_copy_wakeup = True
