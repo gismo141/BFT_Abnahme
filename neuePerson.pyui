@@ -1,0 +1,205 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {329, 437}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{164, 6}, {159, 32}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "WLR",
+          "name" : "firstNameTxt",
+          "frame" : "{{65, 203}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "79F39CC5-0376-49FE-878D-E5127C91EE18",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{6, 6}, {150, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "WLR",
+          "name" : "firstNameLbl",
+          "frame" : "{{90, 203}, {150, 32}}",
+          "uuid" : "1B519730-A9A9-494D-8010-5661A757D68B",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Vorname",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{6, 46}, {150, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "WLR",
+          "font_size" : 18,
+          "frame" : "{{90, 203}, {150, 32}}",
+          "uuid" : "1B519730-A9A9-494D-8010-5661A757D68B",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Nachname",
+          "name" : "lastNameLbl",
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{6, 86}, {150, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "WLR",
+          "font_size" : 18,
+          "frame" : "{{90, 203}, {150, 32}}",
+          "uuid" : "1B519730-A9A9-494D-8010-5661A757D68B",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Alter",
+          "name" : "ageLbl",
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{6, 126}, {150, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "WLR",
+          "font_size" : 18,
+          "frame" : "{{90, 203}, {150, 32}}",
+          "uuid" : "1B519730-A9A9-494D-8010-5661A757D68B",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Geschlecht",
+          "name" : "genderLbl",
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{164, 46}, {159, 32}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "WLR",
+          "font_size" : 17,
+          "frame" : "{{65, 203}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "79F39CC5-0376-49FE-878D-E5127C91EE18",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "lastNameTxt",
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{164, 86}, {159, 32}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "WLR",
+          "secure" : false,
+          "font_size" : 17,
+          "frame" : "{{65, 203}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "79F39CC5-0376-49FE-878D-E5127C91EE18",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "ageTxt",
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{164, 166}, {159, 32}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "newPerson",
+          "flex" : "WLR",
+          "frame" : "{{125, 203}, {80, 32}}",
+          "title" : "Person hinzufügen",
+          "uuid" : "0B9E1CE9-A6EE-4F40-8EB6-8F709354C224",
+          "class" : "Button",
+          "name" : "newPersonBtn",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{164, 126}, {159, 32}}",
+        "class" : "SegmentedControl",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "name" : "genderCtrl",
+          "frame" : "{{105, 204}, {120, 29}}",
+          "uuid" : "474735B5-1E1D-4145-A65E-7A89873312CF",
+          "class" : "SegmentedControl",
+          "segments" : "männlich|weiblich",
+          "flex" : "WLR"
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{164, 206}, {159, 32}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "WLR",
+          "action" : "newAbnahme",
+          "frame" : "{{125, 203}, {80, 32}}",
+          "title" : "Neue Abnahme",
+          "uuid" : "D696FAD1-E2D4-4373-8D76-9EE927ED3298",
+          "class" : "Button",
+          "name" : "neueAbnahme",
+          "font_size" : 15
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
