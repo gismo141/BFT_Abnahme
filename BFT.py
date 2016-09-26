@@ -1,11 +1,11 @@
-import Person.py
+import Person
 
 class BFT (object):
 	def __init__(self, zs, zk, z1000m, person):
 		self.zeitSprint = zs
 		self.zeitKlimm = zk
 		self.zeit1000m = z1000m
-		if int(person.age) > 35:
+		if person.age > 35:
 			self.faktorAlter = (int(age) - 35) * 0.005
 		else:
 			self.faktorAlter = 1
@@ -25,11 +25,16 @@ class BFT (object):
 		self.note1000m = 5.49 - (self.punkte1000m * 0.01)
 		self.noteGesamt = (self.noteSprint + self.noteKlimm + self.note1000m) / 3
 	
-	def getPunkte(self):
+	def getPunkte(self, sender):
+		'@type sender: ui.Button'
 		print("Punkte")
 		print("\tKlimmhang: " + str(self.punkteKlimm))
-		print("\tSprint: " + str(self.punkteSprint))
+		print("\t10x11m Sprint: " + str(self.punkteSprint))
 		print("\t1000m: " + str(self.punkte1000m))
+		
+		sender.superview['punkteKlimm'].text = str(self.punkteKlimm)
+		sender.superview['punkteSprint'].text = str(self.punkteSprint)
+		sender.superview['punkte1000m'].text = str(self.punkte1000m)
 		
 	def getNoten(self, sender):
 		'@type sender: ui.Button'

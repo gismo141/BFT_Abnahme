@@ -1,19 +1,19 @@
 [
   {
     "selected" : false,
-    "frame" : "{{0, 0}, {329, 437}}",
+    "frame" : "{{0, 0}, {379, 258}}",
     "class" : "View",
     "nodes" : [
       {
         "selected" : false,
-        "frame" : "{{164, 6}, {159, 32}}",
+        "frame" : "{{188.5, 6}, {183.5, 32}}",
         "class" : "TextField",
         "nodes" : [
 
         ],
         "attributes" : {
           "flex" : "WLR",
-          "name" : "firstNameTxt",
+          "font_name" : "<System>",
           "frame" : "{{65, 203}, {200, 32}}",
           "spellchecking_type" : "default",
           "class" : "TextField",
@@ -21,95 +21,95 @@
           "alignment" : "left",
           "autocorrection_type" : "default",
           "font_size" : 17,
-          "font_name" : "<System>"
+          "name" : "firstNameTxt"
         }
       },
       {
         "selected" : false,
-        "frame" : "{{6, 6}, {150, 32}}",
+        "frame" : "{{6.5, 6}, {173, 32}}",
         "class" : "Label",
         "nodes" : [
 
         ],
         "attributes" : {
           "flex" : "WLR",
-          "name" : "firstNameLbl",
+          "font_name" : "<System>",
           "frame" : "{{90, 203}, {150, 32}}",
           "uuid" : "1B519730-A9A9-494D-8010-5661A757D68B",
           "class" : "Label",
           "alignment" : "center",
           "text" : "Vorname",
           "font_size" : 18,
-          "font_name" : "<System>"
+          "name" : "firstNameLbl"
         }
       },
       {
         "selected" : false,
-        "frame" : "{{6, 46}, {150, 32}}",
+        "frame" : "{{6.5, 46}, {173, 32}}",
         "class" : "Label",
         "nodes" : [
 
         ],
         "attributes" : {
           "flex" : "WLR",
-          "font_size" : 18,
+          "font_name" : "<System>",
           "frame" : "{{90, 203}, {150, 32}}",
           "uuid" : "1B519730-A9A9-494D-8010-5661A757D68B",
           "class" : "Label",
           "alignment" : "center",
           "text" : "Nachname",
           "name" : "lastNameLbl",
-          "font_name" : "<System>"
+          "font_size" : 18
         }
       },
       {
         "selected" : false,
-        "frame" : "{{6, 86}, {150, 32}}",
+        "frame" : "{{6.5, 86}, {173, 32}}",
         "class" : "Label",
         "nodes" : [
 
         ],
         "attributes" : {
           "flex" : "WLR",
-          "font_size" : 18,
+          "font_name" : "<System>",
           "frame" : "{{90, 203}, {150, 32}}",
           "uuid" : "1B519730-A9A9-494D-8010-5661A757D68B",
           "class" : "Label",
           "alignment" : "center",
           "text" : "Alter",
           "name" : "ageLbl",
-          "font_name" : "<System>"
+          "font_size" : 18
         }
       },
       {
         "selected" : false,
-        "frame" : "{{6, 126}, {150, 32}}",
+        "frame" : "{{6.5, 126}, {173, 32}}",
         "class" : "Label",
         "nodes" : [
 
         ],
         "attributes" : {
           "flex" : "WLR",
-          "font_size" : 18,
+          "font_name" : "<System>",
           "frame" : "{{90, 203}, {150, 32}}",
           "uuid" : "1B519730-A9A9-494D-8010-5661A757D68B",
           "class" : "Label",
           "alignment" : "center",
           "text" : "Geschlecht",
           "name" : "genderLbl",
-          "font_name" : "<System>"
+          "font_size" : 18
         }
       },
       {
         "selected" : false,
-        "frame" : "{{164, 46}, {159, 32}}",
+        "frame" : "{{188.5, 46}, {183.5, 32}}",
         "class" : "TextField",
         "nodes" : [
 
         ],
         "attributes" : {
           "flex" : "WLR",
-          "font_size" : 17,
+          "font_name" : "<System>",
           "frame" : "{{65, 203}, {200, 32}}",
           "spellchecking_type" : "default",
           "class" : "TextField",
@@ -117,12 +117,12 @@
           "alignment" : "left",
           "autocorrection_type" : "default",
           "name" : "lastNameTxt",
-          "font_name" : "<System>"
+          "font_size" : 17
         }
       },
       {
         "selected" : false,
-        "frame" : "{{164, 86}, {159, 32}}",
+        "frame" : "{{188.5, 86}, {183.5, 32}}",
         "class" : "TextField",
         "nodes" : [
 
@@ -130,7 +130,7 @@
         "attributes" : {
           "flex" : "WLR",
           "secure" : false,
-          "font_size" : 17,
+          "font_name" : "<System>",
           "frame" : "{{65, 203}, {200, 32}}",
           "spellchecking_type" : "default",
           "class" : "TextField",
@@ -138,12 +138,12 @@
           "alignment" : "left",
           "autocorrection_type" : "default",
           "name" : "ageTxt",
-          "font_name" : "<System>"
+          "font_size" : 17
         }
       },
       {
         "selected" : false,
-        "frame" : "{{164, 166}, {159, 32}}",
+        "frame" : "{{188.5, 166}, {183.5, 32}}",
         "class" : "Button",
         "nodes" : [
 
@@ -161,23 +161,23 @@
       },
       {
         "selected" : false,
-        "frame" : "{{164, 126}, {159, 32}}",
+        "frame" : "{{188.5, 126}, {183.5, 32}}",
         "class" : "SegmentedControl",
         "nodes" : [
 
         ],
         "attributes" : {
-          "name" : "genderCtrl",
-          "frame" : "{{105, 204}, {120, 29}}",
-          "uuid" : "474735B5-1E1D-4145-A65E-7A89873312CF",
-          "class" : "SegmentedControl",
           "segments" : "männlich|weiblich",
-          "flex" : "WLR"
+          "frame" : "{{105, 204}, {120, 29}}",
+          "flex" : "WLR",
+          "name" : "genderCtrl",
+          "class" : "SegmentedControl",
+          "uuid" : "474735B5-1E1D-4145-A65E-7A89873312CF"
         }
       },
       {
-        "selected" : true,
-        "frame" : "{{164, 206}, {159, 32}}",
+        "selected" : false,
+        "frame" : "{{188.5, 206}, {183.5, 32}}",
         "class" : "Button",
         "nodes" : [
 
